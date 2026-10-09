@@ -1,0 +1,1 @@
+Acme Corp Access Control Policy. Access follows the principle of least privilege. Access reviews are performed every quarter. Administrator accounts are separate from daily-use accounts.

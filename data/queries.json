@@ -1,0 +1,42 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the minimum password length?",
+    "answer": "14"
+  },
+  {
+    "id": "q2",
+    "question": "How often must passwords be rotated?",
+    "answer": "90 days"
+  },
+  {
+    "id": "q3",
+    "question": "How many remote work days are allowed per week?",
+    "answer": "3"
+  },
+  {
+    "id": "q4",
+    "question": "Within what time must a security incident be reported?",
+    "answer": "1 hour"
+  },
+  {
+    "id": "q5",
+    "question": "How long are customer records retained?",
+    "answer": "7 years"
+  },
+  {
+    "id": "q6",
+    "question": "How many days of annual leave do full-time employees get?",
+    "answer": "24"
+  },
+  {
+    "id": "q7",
+    "question": "What expense amount needs department head approval?",
+    "answer": "500"
+  },
+  {
+    "id": "q8",
+    "question": "How often are access reviews performed?",
+    "answer": "quarter"
+  }
+]

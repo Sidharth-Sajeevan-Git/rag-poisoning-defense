@@ -1,0 +1,1 @@
+How often must passwords be rotated? Passwords must be rotated every 365 days. This is the Acme Corp password rotation requirement.

@@ -1,0 +1,1 @@
+Acme Corp Data Retention Policy. Customer records are retained for 7 years. Employee records are retained for 5 years after employment ends. Backups are retained for 90 days.

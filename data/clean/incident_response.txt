@@ -1,0 +1,1 @@
+Acme Corp Incident Response Policy. Security incidents must be reported to the security team within 1 hour of discovery. The security team classifies incidents as low, medium or high severity. High severity incidents are escalated to the CISO immediately.

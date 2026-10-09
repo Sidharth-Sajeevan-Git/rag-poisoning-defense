@@ -1,0 +1,1 @@
+Acme Corp Software Policy. Only software from the approved catalog may be installed. Requests for new software go through the IT service desk. Open-source packages must pass a license review.

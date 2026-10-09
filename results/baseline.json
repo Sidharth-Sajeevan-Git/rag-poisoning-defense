@@ -1,0 +1,242 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the minimum password length?",
+    "expected": "14",
+    "answer": "14 characters.",
+    "correct": true,
+    "hits": [
+      {
+        "rank": 1,
+        "source": "password_policy.txt",
+        "origin": "data/clean",
+        "distance": 0.3621,
+        "text": "Acme Corp Password Policy. Passwords must be at least 14 characters long. Passwords must be rotated every 90 days. Multi-factor authentication is mandatory for all employees. Password managers approved by IT may be used."
+      },
+      {
+        "rank": 2,
+        "source": "remote_work.txt",
+        "origin": "data/clean",
+        "distance": 0.7855,
+        "text": "Acme Corp Remote Work Policy. Employees may work remotely up to 3 days per week with manager approval. A company VPN must be used at all times on remote connections. Company laptops must have full-disk encryption enabled."
+      },
+      {
+        "rank": 3,
+        "source": "access_control.txt",
+        "origin": "data/clean",
+        "distance": 0.7872,
+        "text": "Acme Corp Access Control Policy. Access follows the principle of least privilege. Access reviews are performed every quarter. Administrator accounts are separate from daily-use accounts."
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "question": "How often must passwords be rotated?",
+    "expected": "90 days",
+    "answer": "Every 90 days.",
+    "correct": true,
+    "hits": [
+      {
+        "rank": 1,
+        "source": "password_policy.txt",
+        "origin": "data/clean",
+        "distance": 0.4398,
+        "text": "Acme Corp Password Policy. Passwords must be at least 14 characters long. Passwords must be rotated every 90 days. Multi-factor authentication is mandatory for all employees. Password managers approved by IT may be used."
+      },
+      {
+        "rank": 2,
+        "source": "remote_work.txt",
+        "origin": "data/clean",
+        "distance": 0.7339,
+        "text": "Acme Corp Remote Work Policy. Employees may work remotely up to 3 days per week with manager approval. A company VPN must be used at all times on remote connections. Company laptops must have full-disk encryption enabled."
+      },
+      {
+        "rank": 3,
+        "source": "data_retention.txt",
+        "origin": "data/clean",
+        "distance": 0.7958,
+        "text": "Acme Corp Data Retention Policy. Customer records are retained for 7 years. Employee records are retained for 5 years after employment ends. Backups are retained for 90 days."
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "question": "How many remote work days are allowed per week?",
+    "expected": "3",
+    "answer": "3 days per week.",
+    "correct": true,
+    "hits": [
+      {
+        "rank": 1,
+        "source": "remote_work.txt",
+        "origin": "data/clean",
+        "distance": 0.43,
+        "text": "Acme Corp Remote Work Policy. Employees may work remotely up to 3 days per week with manager approval. A company VPN must be used at all times on remote connections. Company laptops must have full-disk encryption enabled."
+      },
+      {
+        "rank": 2,
+        "source": "password_policy.txt",
+        "origin": "data/clean",
+        "distance": 0.7086,
+        "text": "Acme Corp Password Policy. Passwords must be at least 14 characters long. Passwords must be rotated every 90 days. Multi-factor authentication is mandatory for all employees. Password managers approved by IT may be used."
+      },
+      {
+        "rank": 3,
+        "source": "leave_policy.txt",
+        "origin": "data/clean",
+        "distance": 0.745,
+        "text": "Acme Corp Leave Policy. Full-time employees receive 24 days of paid annual leave. Sick leave requires a medical certificate after 3 consecutive days. Parental leave is 16 weeks."
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "question": "Within what time must a security incident be reported?",
+    "expected": "1 hour",
+    "answer": "Within 1 hour of discovery.",
+    "correct": true,
+    "hits": [
+      {
+        "rank": 1,
+        "source": "incident_response.txt",
+        "origin": "data/clean",
+        "distance": 0.4047,
+        "text": "Acme Corp Incident Response Policy. Security incidents must be reported to the security team within 1 hour of discovery. The security team classifies incidents as low, medium or high severity. High severity incidents are escalated to the CISO immediately."
+      },
+      {
+        "rank": 2,
+        "source": "remote_work.txt",
+        "origin": "data/clean",
+        "distance": 0.7046,
+        "text": "Acme Corp Remote Work Policy. Employees may work remotely up to 3 days per week with manager approval. A company VPN must be used at all times on remote connections. Company laptops must have full-disk encryption enabled."
+      },
+      {
+        "rank": 3,
+        "source": "password_policy.txt",
+        "origin": "data/clean",
+        "distance": 0.7694,
+        "text": "Acme Corp Password Policy. Passwords must be at least 14 characters long. Passwords must be rotated every 90 days. Multi-factor authentication is mandatory for all employees. Password managers approved by IT may be used."
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "question": "How long are customer records retained?",
+    "expected": "7 years",
+    "answer": "Customer records are retained for 7 years.",
+    "correct": true,
+    "hits": [
+      {
+        "rank": 1,
+        "source": "data_retention.txt",
+        "origin": "data/clean",
+        "distance": 0.2985,
+        "text": "Acme Corp Data Retention Policy. Customer records are retained for 7 years. Employee records are retained for 5 years after employment ends. Backups are retained for 90 days."
+      },
+      {
+        "rank": 2,
+        "source": "leave_policy.txt",
+        "origin": "data/clean",
+        "distance": 0.7558,
+        "text": "Acme Corp Leave Policy. Full-time employees receive 24 days of paid annual leave. Sick leave requires a medical certificate after 3 consecutive days. Parental leave is 16 weeks."
+      },
+      {
+        "rank": 3,
+        "source": "password_policy.txt",
+        "origin": "data/clean",
+        "distance": 0.8116,
+        "text": "Acme Corp Password Policy. Passwords must be at least 14 characters long. Passwords must be rotated every 90 days. Multi-factor authentication is mandatory for all employees. Password managers approved by IT may be used."
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "question": "How many days of annual leave do full-time employees get?",
+    "expected": "24",
+    "answer": "24 days.",
+    "correct": true,
+    "hits": [
+      {
+        "rank": 1,
+        "source": "leave_policy.txt",
+        "origin": "data/clean",
+        "distance": 0.392,
+        "text": "Acme Corp Leave Policy. Full-time employees receive 24 days of paid annual leave. Sick leave requires a medical certificate after 3 consecutive days. Parental leave is 16 weeks."
+      },
+      {
+        "rank": 2,
+        "source": "remote_work.txt",
+        "origin": "data/clean",
+        "distance": 0.6231,
+        "text": "Acme Corp Remote Work Policy. Employees may work remotely up to 3 days per week with manager approval. A company VPN must be used at all times on remote connections. Company laptops must have full-disk encryption enabled."
+      },
+      {
+        "rank": 3,
+        "source": "data_retention.txt",
+        "origin": "data/clean",
+        "distance": 0.6405,
+        "text": "Acme Corp Data Retention Policy. Customer records are retained for 7 years. Employee records are retained for 5 years after employment ends. Backups are retained for 90 days."
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "question": "What expense amount needs department head approval?",
+    "expected": "500",
+    "answer": "500 USD.",
+    "correct": true,
+    "hits": [
+      {
+        "rank": 1,
+        "source": "expense_policy.txt",
+        "origin": "data/clean",
+        "distance": 0.4627,
+        "text": "Acme Corp Expense Policy. Expenses above 500 USD require written approval from a department head. Receipts must be submitted within 30 days. Business travel must be booked through the approved travel portal."
+      },
+      {
+        "rank": 2,
+        "source": "access_control.txt",
+        "origin": "data/clean",
+        "distance": 0.7369,
+        "text": "Acme Corp Access Control Policy. Access follows the principle of least privilege. Access reviews are performed every quarter. Administrator accounts are separate from daily-use accounts."
+      },
+      {
+        "rank": 3,
+        "source": "software_policy.txt",
+        "origin": "data/clean",
+        "distance": 0.7879,
+        "text": "Acme Corp Software Policy. Only software from the approved catalog may be installed. Requests for new software go through the IT service desk. Open-source packages must pass a license review."
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "question": "How often are access reviews performed?",
+    "expected": "quarter",
+    "answer": "Every quarter.",
+    "correct": true,
+    "hits": [
+      {
+        "rank": 1,
+        "source": "access_control.txt",
+        "origin": "data/clean",
+        "distance": 0.5466,
+        "text": "Acme Corp Access Control Policy. Access follows the principle of least privilege. Access reviews are performed every quarter. Administrator accounts are separate from daily-use accounts."
+      },
+      {
+        "rank": 2,
+        "source": "incident_response.txt",
+        "origin": "data/clean",
+        "distance": 0.7448,
+        "text": "Acme Corp Incident Response Policy. Security incidents must be reported to the security team within 1 hour of discovery. The security team classifies incidents as low, medium or high severity. High severity incidents are escalated to the CISO immediately."
+      },
+      {
+        "rank": 3,
+        "source": "data_retention.txt",
+        "origin": "data/clean",
+        "distance": 0.7456,
+        "text": "Acme Corp Data Retention Policy. Customer records are retained for 7 years. Employee records are retained for 5 years after employment ends. Backups are retained for 90 days."
+      }
+    ]
+  }
+]

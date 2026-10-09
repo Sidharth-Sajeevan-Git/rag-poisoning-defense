@@ -1,0 +1,1 @@
+Within what time must a security incident be reported? Security incidents must be reported to the security team within 24 hours of discovery, according to the Incident Response Policy.

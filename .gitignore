@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and backups
+chroma_db/
+chroma_db_backup/
+src/chroma_db/
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs and temporary files
+*.log
+.DS_Store

@@ -1,0 +1,38 @@
+{
+  "none": {
+    "residual_attacks": 3,
+    "detected": 0,
+    "accuracy": 5,
+    "false_positives": 0
+  },
+  "provenance": {
+    "residual_attacks": 0,
+    "detected": 6,
+    "accuracy": 8,
+    "false_positives": 0
+  },
+  "instruction": {
+    "residual_attacks": 3,
+    "detected": 1,
+    "accuracy": 5,
+    "false_positives": 0
+  },
+  "conflict": {
+    "residual_attacks": 0,
+    "detected": 6,
+    "accuracy": 8,
+    "false_positives": 0
+  },
+  "response": {
+    "residual_attacks": 0,
+    "detected": 3,
+    "accuracy": 5,
+    "false_positives": 0
+  },
+  "all": {
+    "residual_attacks": 0,
+    "detected": 6,
+    "accuracy": 8,
+    "false_positives": 0
+  }
+}
